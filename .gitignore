@@ -91,3 +91,4 @@ datasets/
 # Build outputs
 build/
 dist/
+MiniProject_Frontend/emotion-detector-app/node_modules/
