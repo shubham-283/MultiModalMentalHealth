@@ -1,0 +1,43 @@
+{
+  "_name_or_path": "distilbert-base-uncased",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForSequenceClassification"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "id2label": {
+    "0": "Anxiety",
+    "1": "Normal",
+    "2": "Depression",
+    "3": "Suicidal",
+    "4": "Stress",
+    "5": "Bipolar",
+    "6": "Personality disorder"
+  },
+  "initializer_range": 0.02,
+  "label2id": {
+    "Anxiety": 0,
+    "Bipolar": 5,
+    "Depression": 2,
+    "Normal": 1,
+    "Personality disorder": 6,
+    "Stress": 4,
+    "Suicidal": 3
+  },
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "problem_type": "single_label_classification",
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "torch_dtype": "float32",
+  "transformers_version": "4.47.0",
+  "vocab_size": 30522
+}
