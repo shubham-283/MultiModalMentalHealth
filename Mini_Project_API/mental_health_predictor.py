@@ -6,8 +6,7 @@ import os
 import contextlib
 
 # Set the path to your downloaded model
-MODEL_DIR = r"D:\MultiModalMentalHealth\Mini_Project_API\textmentalhealth_92"
-
+MODEL_DIR = './textmentalhealth_92'
 # Define a no-op context manager to replace init_empty_weights if needed
 @contextlib.contextmanager
 def dummy_context_mgr():

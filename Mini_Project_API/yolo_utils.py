@@ -9,7 +9,7 @@ import time
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 # Load model once
-model = YOLO(r"D:\MultiModalMentalHealth\Mini_Project_API\VideoEmotionModel\best.pt")
+model = YOLO('./VideoEmotionModel/best.pt')
 CONFIDENCE_THRESHOLD = 0.4
 
 # Emotion labels

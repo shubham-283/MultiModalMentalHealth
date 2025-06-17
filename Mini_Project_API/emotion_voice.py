@@ -13,8 +13,8 @@ DURATION = 5
 MAX_SAMPLES = SAMPLE_RATE * DURATION
 
 # Load model and label encoder
-MODEL_PATH = r'D:\MultiModalMentalHealth\Mini_Project_API\voicemodel\emotion_recognition_model.keras'
-LABEL_ENCODER_PATH = r'D:\MultiModalMentalHealth\Mini_Project_API\voicemodel\label_encoder_classes.npy'
+MODEL_PATH = './voicemodel/emotion_recognition_model.keras'
+LABEL_ENCODER_PATH = './voicemodel/label_encoder_classes.npy'
 
 model = load_model(MODEL_PATH)
 label_classes = np.load(LABEL_ENCODER_PATH)
