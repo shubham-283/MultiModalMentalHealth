@@ -184,7 +184,7 @@ pip install -r requirements.txt
 python client.py
 ```
 
-** Backend Ready!**  
+**Backend Ready!**  
 Server will be live at: `http://localhost:8080`
 
 #### Step 3: Frontend Setup (React)
@@ -412,7 +412,7 @@ cat MiniProject_Frontend/emotion-detector-app/.env
 curl http://localhost:8080
 ```
 
-** Common Fixes:**
+**Common Fixes:**
 - Make sure backend is running on correct port
 - Confirm `REACT_APP_BASE_URL` matches backend URL
 - Temporarily disable firewalls blocking localhost
@@ -447,7 +447,7 @@ git lfs install
 git lfs pull
 ```
 
-** Verify the model directories contain files:**
+**Verify the model directories contain files:**
 
 ```bash
 ls Mini_Project_API/TextEmotionModel/
@@ -508,9 +508,9 @@ npm --version
 
 If you're still stuck or facing edge-case errors:
 
-- ** Check Browser Console:** Press F12 → Console tab to inspect frontend issues
-- ** Check Terminal Logs:** Look at FastAPI logs for backend exceptions
-- ** Create a GitHub Issue:**
+- **Check Browser Console:** Press F12 → Console tab to inspect frontend issues
+- **Check Terminal Logs:** Look at FastAPI logs for backend exceptions
+- **Create a GitHub Issue:**
   - Include a short description, terminal logs, error screenshots, and your system details
 
 **System Requirements:**
