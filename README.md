@@ -152,7 +152,7 @@ Make sure you have the following installed before getting started:
 - **Git** with **Git LFS** support
 - **A webcam and microphone** (for live emotion analysis)
 
-### 🔥 Quick Start — Get Running in Under 5 Minutes!
+### 🔥 Quick Start - Get Running in Under 5 Minutes!
 
 #### Step 1: Clone the Repository
 
@@ -209,14 +209,14 @@ Your app will open at: `http://localhost:3000`
 ### 😊 That's It! You're All Set!
 
 1. Open your browser and visit `http://localhost:3000`
-2. Start exploring emotions across text, audio, and video — all in real-time!
+2. Start exploring emotions across text, audio, and video - all in real-time!
 
 ---
 
 ##  How to Use the Application
 
 ### 🖥️ Single-Page Interface
-The application features a sleek, single-page design where all analysis tools — text, voice, and video — are integrated into one smooth user experience.
+The application features a sleek, single-page design where all analysis tools - text, voice, and video - are integrated into one smooth user experience.
 
 ###  Text Emotion Analysis
 1. **Input:** Type your thoughts, feelings, or any content in the text area
@@ -255,46 +255,46 @@ The speedometer-style visualization helps interpret emotional well-being at a gl
 ###  Multimodal Emotion Analysis
 - **Combine Inputs:** Use text, voice, and video together for deeper insights
 - **Real-Time Dashboard:** View all emotions side-by-side in one unified panel
-- **Export Reports:** Generate detailed emotional health summaries — great for tracking or professional assessments
+- **Export Reports:** Generate detailed emotional health summaries - great for tracking or professional assessments
 
 ---
 
 ## 🛠️ Technology Stack
 
-Explore the powerful technologies that bring MultiModalMentalHealth to life — from modern frontend frameworks to cutting-edge AI libraries.
+Explore the powerful technologies that bring MultiModalMentalHealth to life - from modern frontend frameworks to cutting-edge AI libraries.
 
 ###  Frontend Technologies
 A clean and responsive single-page application (SPA) built for performance and usability:
 
-- **React 18** — A fast, flexible JavaScript library for building dynamic UIs
-- **TailwindCSS** — Utility-first CSS framework for fully responsive and elegant designs
-- **JavaScript (ES6+)** — Modern JS with features like async/await, arrow functions, and destructuring
-- **Component Architecture** — Modular, reusable React components for each feature (Text, Audio, Video analysis)
+- **React 18** - A fast, flexible JavaScript library for building dynamic UIs
+- **TailwindCSS** - Utility-first CSS framework for fully responsive and elegant designs
+- **JavaScript (ES6+)** - Modern JS with features like async/await, arrow functions, and destructuring
+- **Component Architecture** - Modular, reusable React components for each feature (Text, Audio, Video analysis)
 
 ###  Backend Technologies
 A high-performance backend that handles real-time requests and processes media data efficiently:
 
-- **FastAPI** — Blazing-fast Python web framework with automatic Swagger docs
-- **Uvicorn** — ASGI server that powers the backend with ultra-low latency
-- **CORS Middleware** — Enables seamless communication between frontend and backend
-- **File Upload Handling** — Supports audio/video uploads with multipart form data
+- **FastAPI** - Blazing-fast Python web framework with automatic Swagger docs
+- **Uvicorn** - ASGI server that powers the backend with ultra-low latency
+- **CORS Middleware** - Enables seamless communication between frontend and backend
+- **File Upload Handling** - Supports audio/video uploads with multipart form data
 
 ###  AI & Machine Learning Technologies
 The core intelligence of the app is powered by state-of-the-art AI libraries:
 
-- **HuggingFace Transformers** — Pre-trained BERT models for emotion analysis from text
-- **TensorFlow** — Processes and classifies audio signals for emotion recognition
-- **PyTorch** — Powers neural network inference and model evaluation
-- **Librosa** — Extracts audio features like MFCCs, pitch, and zero-crossing rate
-- **OpenCV** — Handles video capture and image preprocessing
-- **YOLOv8 (Ultralytics)** — Detects real-time facial expressions with high accuracy
-- **Scikit-learn** — Offers utilities for preprocessing, evaluation, and model tuning
+- **HuggingFace Transformers** - Pre-trained BERT models for emotion analysis from text
+- **TensorFlow** - Processes and classifies audio signals for emotion recognition
+- **PyTorch** - Powers neural network inference and model evaluation
+- **Librosa** - Extracts audio features like MFCCs, pitch, and zero-crossing rate
+- **OpenCV** - Handles video capture and image preprocessing
+- **YOLOv8 (Ultralytics)** - Detects real-time facial expressions with high accuracy
+- **Scikit-learn** - Offers utilities for preprocessing, evaluation, and model tuning
 
 ---
 
 ##  Configuration & Environment Setup
 
-This section helps you get your environment variables, dependencies, and configurations set up correctly — for both the frontend and backend.
+This section helps you get your environment variables, dependencies, and configurations set up correctly - for both the frontend and backend.
 
 ###  Frontend Environment Variables
 
